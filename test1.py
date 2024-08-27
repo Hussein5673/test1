@@ -28,5 +28,5 @@ new_n_bedrooms = np.array([7.0])
 predicted_price = trained_model.predict(new_n_bedrooms, verbose=False).item()
 print(f"Your model predicted a price of {predicted_price:.2f} hundreds of thousands of dollars for a {int(new_n_bedrooms.item())} bedrooms house")
 
-# Test your code!
+
 unittests.test_trained_model(trained_model)
